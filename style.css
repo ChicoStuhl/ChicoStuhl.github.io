@@ -1,0 +1,114 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alumni+Sans+Pinstripe&family=Merriweather&display=swap');
+/* FONTS CALLING
+font-family: 'Aboreto', cursive;
+font-family: 'Alumni Sans Pinstripe', sans-serif;
+font-family: 'Merriweather', serif;
+*/
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    margin-top: 5rem;
+    margin-bottom: 0rem;
+    padding: 20px;
+}
+.header-foto {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.header #foto {
+    padding: 0px;
+    height: 10rem;
+    display: inline;
+    justify-content: center;
+    border-radius: 35%;
+}
+.header-titulo {
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    font-weight: 100;
+    text-shadow: 0.3rem 0.4rem 2px rgba(70, 4, 150, 0.538);
+    line-height: 2rem;
+    margin-bottom: .5rem;
+}
+.sobre-mim {
+    display:flex ;
+    word-wrap: break-word;
+    line-height: 24px;
+    justify-content: space-around;
+}
+.sobre-mim-texto {
+    text-align: left;
+    max-width: 600px; 
+    padding-left: 10px;
+}
+.contato {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style-type: none;
+}
+.contato h1 {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+.icons {
+    width: 2rem;
+    display: inline-block;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+.html-icon {
+    background-color: #e34c26;
+    border-radius: 10%;
+}
+.CSS-icon {
+    background-color: #264de4;
+    border-radius: 10%;
+}
+.JavaScript-icon {
+    background-color: #f0db4f;
+    border-radius: 10%;
+}
+.footer {
+    margin-bottom: 5rem;
+}
+
+/* animações */
+
+.icons:hover {
+    width: 2.5rem;
+    transition: .8s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
